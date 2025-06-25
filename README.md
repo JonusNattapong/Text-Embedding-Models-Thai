@@ -1,5 +1,9 @@
 # Thai Sentence Embedding Model Training
 
+<div align="center">
+  <img src="assets/images/logo.png" alt="Thai Sentence Embedding Logo" width="200"/>
+</div>
+
 This project fine-tunes a multilingual SentenceTransformer model for Thai sentence embeddings using the XNLI dataset and evaluates with the STSB benchmark.
 
 ## Features
@@ -34,6 +38,9 @@ This project fine-tunes a multilingual SentenceTransformer model for Thai senten
    python train_thai_embedding.py
    ```
 
+![Thai Sentence Embedding Training Process](assets/images/image1.png)
+*Figure 1: Training progress showing loss reduction and learning rate scheduling during the fine-tuning process of BERT multilingual model on Thai XNLI dataset.*
+
 ## Output
 - The trained model will be saved in `thai_sentence_transformer_final/`
 - Intermediate checkpoints in `thai_embedding_model/`
@@ -59,4 +66,6 @@ embeddings = model.encode(["สวัสดีครับ", "ประโยค
 - For Windows users, activate the virtual environment with `.venv\Scripts\activate`
 
 ## License
-This project is for research and educational use. See LICENSE if provided.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is for research and educational use.
