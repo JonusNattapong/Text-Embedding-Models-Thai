@@ -1,0 +1,7 @@
+sentence-transformers>=2.2.2
+datasets>=2.0.0
+transformers>=4.30.0
+torch>=1.10.0
+scikit-learn
+accelerate
+dotenv
